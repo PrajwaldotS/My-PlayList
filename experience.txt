@@ -1,0 +1,24 @@
+🎧 MY EXPERIENCE WITH THIS PROJECT
+
+1. This is my very first personal project, and honestly, it feels amazing to see something I've built from scratch actually work. I've always wanted to create something that reflects my music taste, and this was the perfect start to my web development journey.
+
+2. While the website isn't responsive and doesn't work well on mobile devices, I’ve put my heart into selecting and organizing songs from the artists I love the most — Diljit, Seedhe Maut, The Weeknd, and Divine. This project is all about passion over perfection.
+
+3. It took me quite a long time to put everything together — from finding the right songs, managing local files, to getting the layout and play functionality just right. There were a lot of small bugs and trial-and-error moments, but each one taught me something new.
+
+4. The design is specifically built for laptops and desktop screens. I haven’t optimized it for mobile yet, but that’s something I want to explore in the future. Right now, I focused more on getting it to look decent and work smoothly on bigger screens.
+
+5. I’ve added only my top 10 favorite tracks across the four artists. I wanted to keep it light and focused — just the songs that I personally vibe with the most. Each one has its own mood and memory attached to it.
+
+---
+
+✨ What I’ve Learned:
+
+- Basic project structure and how to organize files
+- How HTML, CSS, and JavaScript actually come together in a real-world project
+- How to debug, think through UI/UX, and make things feel "right"
+- That even a simple project can be super rewarding if it reflects something you're passionate about
+
+This project is a big milestone for me. It’s not perfect, but it’s mine — and it’s the first step towards many more creative ideas I hope to bring to life. I'm excited to keep building, learning, and improving from here.
+
+Thanks for checking it out! 🙌

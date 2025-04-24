@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1><i class="fa-solid fa-music"></i></h1>
+            <div class="info">
+                <h1>Artist Highlights</h1>
+                <h3>Right now, Blinding Lights by The Weeknd is on repeat. Seedhe Maut’s lyrics hit deep, and Diljit’s music is always a vibe. Divine’s hustle is inspiring, making his tracks even more powerful</h3>
+            </div>
+            <div class="info">
+                <h1>What’s Hot?</h1>
+                <h3>The Weeknd’s After Hours, Seedhe Maut’s Namastute, and Diljit’s Born to Shine 2.0 are on fire. Divine’s Baazigar is a banger</h3>
+            </div>
+            <div class="info">
+                <h1>Why I Love This Music</h1>
+                <h3>The Weeknd’s cinematic sound, Seedhe Maut’s lyrical depth, Diljit’s Punjabi vibes, and Divine’s street hustle define my playlist. </h3>
+            </div>
+        </div>
+        <div class="mainbar">
+            <input type="text" placeholder="Search" name="" id="myInput">
+            <div class="album">
+                <div class="grid1">
+                    <div class="weekend">
+                        <a href="/weekend/week.html">
+                            <img src="image/weekend.jpeg" alt="">
+                        </a>
+                        <h1>The Weekend</h1>
+                    </div>
+                    <div class="seedhe">
+                        <a href="/seedhe maut/maut.html">
+                            <img src="image/maut.jpeg" alt="">
+                        </a>
+                        <h1>Seedhe Maut</h1>
+                    </div>
+
+                </div>
+                <div class="grid2">
+                    <div class="diljit">
+                        <a href="/diljit/my.html">
+                            <img src="image/diljit.jpeg" alt="">
+                        </a>
+                        <h1>Diljit Doshanj</h1>
+                    </div>
+                    <div class="divine">
+                        <a href="/divine/div.html">
+                            <img src="image/divine.jpeg" alt="">
+                        </a>
+                        <h1>Divine</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/512d2ff12e.js" crossorigin="anonymous"></script>
+<script>
+    document.getElementById("myInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") { // Check if the key pressed is "Enter"
+        console.log('u pressed enter')
+        redirect();
+    }
+});
+function redirect() {
+            let inputValue = document.getElementById("myInput").value.toLowerCase();
+            if (inputValue.includes("seedhe maut")) {
+                window.location.href = "/seedhe maut/maut.html"; 
+            }
+            else if (inputValue.includes("divine")) {
+                window.location.href = "/divine/div.html"; 
+            }
+             
+            else if (inputValue.includes("weekend")) {
+                window.location.href = "/weekend/week.html";
+            }
+            
+            else if (inputValue.includes("diljit")) {
+                window.location.href = "/diljit/my.html";
+            }
+
+
+             else {
+                alert("No matching branch found!");
+            }
+        }
+</script>
+</html>

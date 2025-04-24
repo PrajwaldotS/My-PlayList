@@ -1,0 +1,81 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: #495057;
+    --second:#ced4da;
+    --font:#000000;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #040404;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background-color: var(--primary);
+}
+.sidebar > h1> i{
+    color: var(--font);
+    font-size: 5rem;
+}
+
+.info{
+    margin: 3%;
+    padding: 2%;
+    background-color: var(--second);
+    border-radius: 10px;
+    }
+.mainbar{
+    width: 70%;
+}
+.album{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.album img {
+    width: 90%; 
+    aspect-ratio: 1 / 1;  
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+.weekend, .divine, .seedhe , .diljit{
+    margin: 4%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(251, 251, 251, 0.529);
+    backdrop-filter: blur(10px);
+    padding: 3%;
+    border-radius: 10px;
+    transition: all linear ease-in-out 1s;
+}
+.weekend:hover, .divine:hover, .seedhe:hover , .diljit:hover{
+    box-shadow: 0 0 30px rgba(251, 251, 251, 0.529);
+
+}
+.weekend, .divine, .seedhe , .diljit > h1{
+    color: white;
+}
+
+
+input{
+    width: 100%;
+    height: 5%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 5%;
+}
+

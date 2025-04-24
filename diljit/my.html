@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diljith Dosanj</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <nav>
+       <ul>
+        <li><img src="/logo.png" alt=""></li>
+        <li><input type="search" placeholder="Search" id="myInput"></li>
+        <li><a href="/home/home.html" target="_self"><h1><i class="fa-solid fa-house" id="home"></i>Home</h1></a></li>
+       </ul>
+    </nav>
+    <div id="top">
+        <a href="/weekend/week.html"><i class="fa-solid fa-arrow-left" id="diricon"></i></a>
+        <div class="maincontainer">
+            <div id="imageside">
+                <img src="/diljit/dilcov/1.jpg" id="songcover"  alt="">
+                <h4 id="title">let me love you</h4>
+                <div id="icons">
+                <i class="fas fa-3x fa-step-backward" id="previous" ></i>
+                <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i>
+                </div>
+            </div>
+            <div id="songlistside">
+                <h1>Song List</h1>
+                <ul>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                    <li class="songlist">
+                        <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                        </li>
+                        <li class="songlist">
+                            <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                            </li>
+                            <li class="songlist">
+                                <h4>&#9658</h4><h4 class="songname">let me love you</h4>
+                                </li>
+                </ul>          
+            </div>  
+        </div>
+        <a href="/divine/div.html"><i class="fa-solid fa-arrow-right"  id="diricon"></i></a>
+    </div>
+    <footer>
+        
+        <i class="fa-solid fa-shuffle"></i>
+        <input type="range" id="myprogressbar">
+        <i class="fa-solid fa-volume-high" id="volumeIcon" onclick="toggleMute()"></i>
+    </footer>
+</body>
+<script src="my.js"></script>
+<script src="https://kit.fontawesome.com/512d2ff12e.js" crossorigin="anonymous"></script>
+<script>
+    document.getElementById("myInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") { // Check if the key pressed is "Enter"
+        console.log('u pressed enter')
+        redirect();
+    }
+});
+function redirect() {
+            let inputValue = document.getElementById("myInput").value.toLowerCase();
+            if (inputValue.includes("seedhe maut")) {
+                window.location.href = "/seedhe maut/maut.html"; 
+            }
+            else if (inputValue.includes("divine")) {
+                window.location.href = "/divine/div.html"; 
+            }
+             
+            else if (inputValue.includes("weekend")) {
+                window.location.href = "/weekend/week.html";
+            }
+            
+            else if (inputValue.includes("diljit")) {
+                window.location.href = "/diljit/my.html";
+            }
+
+
+             else {
+                alert("No matching branch found!");
+            }
+        }
+</script>
+</html>
